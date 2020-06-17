@@ -18,11 +18,6 @@ $sql = "CREATE TABLE IF NOT EXISTS userinfo(
     longitud  TEXT,
     broname   TEXT,
     brovers   TEXT,
-    browidth  TEXT,
-    broheight TEXT,
-    cookies   INTEGER,
-    scrwidth  TEXT,
-    scrheight TEXT,
     osystem   TEXT,
     os_64bit  INTEGER,
     device    TEXT
