@@ -65,6 +65,7 @@ class Userinfo
 
         $sql = "SELECT * FROM userinfo ORDER BY stamptime DESC LIMIT 10";
         $all = $db->query($sql)->fetchAll();
+        $db = null;
 
         echo '<meta charset="UTF-8">';
         foreach($all as $row) {
@@ -92,6 +93,5 @@ class Userinfo
             echo '</table>';
         }
     }
-
 
 }
