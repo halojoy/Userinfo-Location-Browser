@@ -16,11 +16,6 @@ Latitude	64.5954
 Longitude	18.6735
 Browser name	Chrome
 Browser version	83
-Browser width	1492px
-Browser height	915px
-Cookies enabled	Yes
-Screen width	1920px
-Screen height	1080px
 Operating System 	Windows 7
 OS 64 bits	Yes
 Device type	Desktop
