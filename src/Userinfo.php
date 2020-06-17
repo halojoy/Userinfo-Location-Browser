@@ -66,6 +66,7 @@ class Userinfo
         $sql = "SELECT * FROM userinfo ORDER BY stamptime DESC LIMIT 10";
         $all = $db->query($sql)->fetchAll();
 
+        echo '<meta charset="UTF-8">';
         foreach($all as $row) {
             echo '<table style="border-collapse:collapse">';
             echo '<tr><td>Time created</td><td>'.date('Y-m-d H:i', $row->stamptime).'</td></tr>';
