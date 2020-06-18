@@ -91,6 +91,7 @@ class Userinfo
             echo '<tr><td>OS 64 bits</td><td>'.$os64.'</td></tr>';
             echo '<tr><td>Device type</td><td>'.ucfirst($row->device).'</td></tr>';
             echo '</table>';
+            echo '<br>';
         }
     }
 
